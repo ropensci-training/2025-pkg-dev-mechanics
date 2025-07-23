@@ -1,10 +1,10 @@
 ---
-title: Session 1
+title: Sesión 1
 weight: 2
 chapter: true
 slides: true
-menuTitle: Session 1
+menuTitle: Sesión 1
 ---
 
-Why and how develop packages?
-Minimal package.
+¿Por qué y cómo desarrollar paquetes?
+Paquete mínimo.

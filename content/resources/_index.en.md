@@ -1,29 +1,29 @@
 ---
-title: Further resources
+title: Recursos
 weight: 1000
 chapter: false
 slides: false
-menuTitle: Resources
+menuTitle: Recursos
 output: hugodown::md_document
 rmd_hash: 31607e4af7dc6362
 
 ---
 
-## R package development
+## Desarrollo de paquetes R
 
--   [R Packages book](https://r-pkgs.org) by Hadley Wickham and Jenny Bryan.
+-   [R Packages book](https://r-pkgs.org) de Hadley Wickham y Jenny Bryan.
 
 -   [RStudio Package Development Cheatsheet](https://raw.githubusercontent.com/rstudio/cheatsheets/master/package-development.pdf).
 
--   [Shannon Pileggi's "Your first R package in 1 hour"](https://www.pipinghotdata.com/posts/2020-10-25-your-first-r-package-in-1-hour/).
+-   [Shannon Pileggi: "Your first R package in 1 hour"](https://www.pipinghotdata.com/posts/2020-10-25-your-first-r-package-in-1-hour/).
 
--   [Jim Hester's talk "You can make a package in 20 minutes"](https://www.jimhester.com/talk/2018-rsc-r-pkgs/).
+-   [Jim Hester: talk "You can make a package in 20 minutes"](https://www.jimhester.com/talk/2018-rsc-r-pkgs/).
 
--   [Forwards workshops on package development -- notes taken by Stefanie Butland](https://github.com/stefaniebutland/pkg-dev-notes).
+-   [Forwards workshops on package development, notas de Stefanie Butland](https://github.com/stefaniebutland/pkg-dev-notes).
 
--   [rOpenSci dev guide](https://devguide.ropensci.org).
+-  [Guía de desarrollo de rOpenSci](https://devguide.ropensci.org/es/index.es.html).
 
--   [R-hub blog](https://blog.r-hub.io) e.g. [Checking the inputs of your R functions](https://blog.r-hub.io/2022/03/10/input-checking/) & [Coding style, coding etiquette](https://blog.r-hub.io/2022/03/21/code-style/).
+-   [R-hub blog](https://blog.r-hub.io) por ejemplo [Checking the inputs of your R functions](https://blog.r-hub.io/2022/03/10/input-checking/) & [Coding style, coding etiquette](https://blog.r-hub.io/2022/03/21/code-style/).
 
 -   [Tidyverse style guide](https://style.tidyverse.org/).
 
@@ -31,37 +31,26 @@ rmd_hash: 31607e4af7dc6362
 
 -   Testthat third edition: [webinar](https://rstudio.com/resources/webinars/testthat-3/), [blog post](https://www.tidyverse.org/blog/2020/10/testthat-3-0-0/).
 
--   [Writing R Extensions](https://cran.r-project.org/doc/manuals/R-exts.html) (one piece at a time).
+-   [Writing R Extensions](https://cran.r-project.org/doc/manuals/R-exts.html).
 
--   [Advanced R](https://adv-r.hadley.nz/) by Hadley Wickham.
+-   [Advanced R](https://adv-r.hadley.nz/) de Hadley Wickham.
 
--   My own blog post with many links to fantastic resources: ["How to develop good R packages"](http://www.masalmon.eu/2017/12/11/goodrpackages/).
+-   Mi entrada con enlaces hasta recursos: ["How to develop good R packages"](http://www.masalmon.eu/2017/12/11/goodrpackages/).
 
-## Continuous integration in particular
+## Integración continua
 
--   [A Beginner's Guide to Travis-CI for R](https://juliasilge.com/blog/beginners-guide-to-travis/) by Julia Silge (for learning about continuous integration; Travis itself is [no longer recommended](https://ropensci.org/blog/2020/11/19/moving-away-travis/)).
+-  [Buenas prácticas de integración continua](https://devguide.ropensci.org/es/pkg_ci.es.html)
 
--   [GitHub Actions for R](https://www.jimhester.com/talk/2020-rsc-github-actions/) by Jim Hester.
+## CRAN
 
-## CRAN submissions
+-  [CRAN cookbook](https://contributor.r-project.org/cran-cookbook/)
 
--   [You CRAN Do It](https://ivelasq.rbind.io/blog/you-cran-do-it/) by Isabella Velásquez (including a link to other resources at the end).
+## De scripts hasta paquetes
 
-## From scripts to package
+-   [prefixer](https://github.com/dreamRs/prefixer), "Prefix function with their namespace".
 
--   [prefixer package](https://github.com/dreamRs/prefixer), "Prefix function with their namespace".
+-   [sinew](https://yonicd.github.io/sinew/articles/motivation.html).
 
--   [sinew package](https://yonicd.github.io/sinew/articles/motivation.html).
-
-## From R Markdown to packages
+## De R Markdown hasta paquetes
 
 -   [fusen package](https://thinkr-open.github.io/fusen/).
-
-## Things we saw in my .Rprofile
-
--   [rlang error handling](https://rlang.r-lib.org/reference/index.html#handle-errors).
-
--   [reprex](https://reprex.tidyverse.org/).
-
--   [lookup](https://github.com/jimhester/lookup#readme), [related R-hub blog post](https://blog.r-hub.io/2019/05/14/read-the-source/).
-
