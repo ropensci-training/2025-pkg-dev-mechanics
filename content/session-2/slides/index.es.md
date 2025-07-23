@@ -1,17 +1,17 @@
 ---
 outputs:
 - Reveal
-title: Become an R Package Developer!
+title: Desarrolla paquetes!
 hidden: true
 layout: list
 weight: 11
 output: hugodown::md_document
 countdown: true
-rmd_hash: fd2441be7bd58478
+rmd_hash: 9cee51bbd7ddded5
 
 ---
 
-# Package Development
+# Desarrollo de Paquetes
 
 <div class="highlight">
 
@@ -19,7 +19,7 @@ rmd_hash: fd2441be7bd58478
 
 <div class="highlight">
 
-{{< figure src="132682.jpeg" alt="Bike in repair room" caption="Picture by [Alexander Dummer on Pexels](https://www.pexels.com/photo/black-road-bicycle-inside-room-132682/)." width="400" >}}
+{{< figure src="132682.jpeg" alt="Bike in repair room" caption="Foto de [Alexander Dummer en Pexels](https://www.pexels.com/photo/black-road-bicycle-inside-room-132682/)." width="400" >}}
 
 </div>
 
