@@ -1,6 +1,6 @@
 baseURL = "https://desarrollo-paquetes-basico-2025.netlify.app/"
 languageCode = "es-AR"
-defaultContentLanguage = "en"
+defaultContentLanguage = "es"
 title = "Desarrollo de paquetes para principiantes"
 enableEmoji = true
 pygmentsUseClasses=true
@@ -22,28 +22,28 @@ isHTML = true
 home = [ "HTML", "RSS", "JSON"]
 
 [Languages]
-[Languages.en]
+[Languages.es]
 title = "Desarrollo de paquetes para principiantes"
 weight = 1
 languageName = "Spanish"
 
-[[Languages.en.menu.shortcuts]]
-name = "<i class='fab fa-fw fa-github'></i> GitHub repo"
+[[Languages.es.menu.shortcuts]]
+name = "<i class='fab fa-fw fa-github'></i> Repositorio en GitHub"
 identifier = "ds"
 url = "https://github.com/ropensci-training/2025-pkg-dev-mechanics"
 weight = 10
 
-[[Languages.en.menu.shortcuts]]
+[[Languages.es.menu.shortcuts]]
 name = "<i class='far fa-fw fa-copy'></i> Código"
 url = "/snippets"
 weight = 20
 
-[[Languages.en.menu.shortcuts]]
+[[Languages.es.menu.shortcuts]]
 name = "<i class='fas fa-fw fa-bullhorn'></i> Créditos"
 url = "/credits"
 weight = 30
 
-[[Languages.en.menu.shortcuts]]
+[[Languages.es.menu.shortcuts]]
 name = "<i class='fa fa-certificate'></i> CC-BY Licence"
 url = "https://creativecommons.org/licenses/by/4.0/"
 weight = 40

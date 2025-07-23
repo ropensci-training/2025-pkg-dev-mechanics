@@ -3,33 +3,32 @@ title: Demo
 weight: 3
 output: hugodown::md_document
 ---
+## Recordatorio
 
-## Reminder
+Tenemos un paquete con una función y _tests_.
 
-We have a package with one function and tests.
+Esa función tiene una página de manual local.
 
-That function has a local manual page.
+## Documentación
 
-## Documentation
+:warning: rmarkdown y pkgdown necesitan que tu paquete sea *instalado*.
 
-:warning: rmarkdown and pkgdown needs your package to be _installed_.
+- `install.packages("rmarkdown")`, `usethis::use_readme_rmd()`, escribir cosas, `devtools::build_readme()`, commit+push, mirar el repositorio de GitHub.
 
-* `install.packages("rmarkdown")`, `usethis::use_readme_rmd()`, write stuff, knit, commit+push, look at GitHub repository.
+- `usethis::use_vignette("minipkg")`, escribe cosas. Viñeta != artículo.
 
-* `usethis::use_vignette("minipkg")`, write stuff. Vignette vs article.
+- `install.packages("pkgdown")`, `usethis::use_pkgdown()`, `pkgdown::build_site()`. Localmente.
 
-* `install.packages("pkgdown")`, `usethis::use_pkgdown()`, `pkgdown::build_site()`. Locally.
+:ojos: [pkgdown sitio web](https://pkgdown.r-lib.org/)
 
-:eyes: [pkgdown website](https://pkgdown.r-lib.org/)
+:toolbox: ¡Repite los pasos!
 
-:toolbox: Repeat the steps!
+## Construir el sitio web automáticamente
 
-## Build website automatically
+- `usethis::use_github_action("pkgdown")` cambia la configuración de las páginas GitHub del repositorio, añade la URL a la configuración pkgdown y a DESCRIPTION.
 
-* `usethis::use_github_action("pkgdown")`, change GitHub pages settings of the repo, add URL to pkgdown config and to DESCRIPTION.
+:ojos: [usa esta función para configurar las Acciones de GitHub](https://usethis.r-lib.org/reference/github_actions.html)
 
-:eyes: [usethis support for GitHub Actions setup](https://usethis.r-lib.org/reference/github_actions.html)
+:toolbox: ¡Repite los pasos!
 
-:toolbox: Repeat the steps!
-
----
+***

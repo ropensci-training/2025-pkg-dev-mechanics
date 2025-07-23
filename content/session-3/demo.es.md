@@ -2,37 +2,37 @@
 title: Demo
 weight: 3
 output: hugodown::md_document
-rmd_hash: 96ac244acc42d131
+rmd_hash: 22c4c00465157c32
 
 ---
 
-## Reminder
+## Recordatorio
 
-We have a package with one function and tests.
+Tenemos un paquete con una función y *tests*.
 
-That function has a local manual page.
+Esa función tiene una página de manual local.
 
-## Documentation
+## Documentación
 
-:warning: rmarkdown and pkgdown needs your package to be *installed*.
+:warning: rmarkdown y pkgdown necesitan que tu paquete sea *instalado*.
 
--   `install.packages("rmarkdown")`, [`usethis::use_readme_rmd()`](https://usethis.r-lib.org/reference/use_readme_rmd.html), write stuff, knit, commit+push, look at GitHub repository.
+-   `install.packages("rmarkdown")`, [`usethis::use_readme_rmd()`](https://usethis.r-lib.org/reference/use_readme_rmd.html), escribir cosas, [`devtools::build_readme()`](https://devtools.r-lib.org/reference/build_rmd.html), commit+push, mirar el repositorio de GitHub.
 
--   `usethis::use_vignette("minipkg")`, write stuff. Vignette vs article.
+-   `usethis::use_vignette("minipkg")`, escribe cosas. Viñeta != artículo.
 
--   `install.packages("pkgdown")`, [`usethis::use_pkgdown()`](https://usethis.r-lib.org/reference/use_pkgdown.html), [`pkgdown::build_site()`](https://pkgdown.r-lib.org/reference/build_site.html). Locally.
+-   `install.packages("pkgdown")`, [`usethis::use_pkgdown()`](https://usethis.r-lib.org/reference/use_pkgdown.html), [`pkgdown::build_site()`](https://pkgdown.r-lib.org/reference/build_site.html). Localmente.
 
-:eyes: [pkgdown website](https://pkgdown.r-lib.org/)
+:ojos: [pkgdown sitio web](https://pkgdown.r-lib.org/)
 
-:toolbox: Repeat the steps!
+:toolbox: ¡Repite los pasos!
 
-## Build website automatically
+## Construir el sitio web automáticamente
 
--   `usethis::use_github_action("pkgdown")`, change GitHub pages settings of the repo, add URL to pkgdown config and to DESCRIPTION.
+-   `usethis::use_github_action("pkgdown")` cambia la configuración de las páginas GitHub del repositorio, añade la URL a la configuración pkgdown y a DESCRIPTION.
 
-:eyes: [usethis support for GitHub Actions setup](https://usethis.r-lib.org/reference/github_actions.html)
+:ojos: [usa esta función para configurar las Acciones de GitHub](https://usethis.r-lib.org/reference/github_actions.html)
 
-:toolbox: Repeat the steps!
+:toolbox: ¡Repite los pasos!
 
 ------------------------------------------------------------------------
 

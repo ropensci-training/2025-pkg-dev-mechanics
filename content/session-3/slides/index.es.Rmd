@@ -9,7 +9,7 @@ output: hugodown::md_document
 countdown: true
 ---
 
-# Package Development
+# Desarrollo de paquetes
 
 ```{r, echo=FALSE}
 library("magrittr")
@@ -27,9 +27,9 @@ get_pic <- function(id, alt, width) {
     paste0(id, ".jpeg"),
     '" alt="',
     alt,
-    '" caption="Picture by [',
+    '" caption="Foto de [',
     info$photographer,
-    ' on Pexels](',
+    ' en Pexels](',
     info$url,
     ')." width="',
     width,
@@ -39,20 +39,18 @@ get_pic <- function(id, alt, width) {
   cat("\n```\n")
 }
 ```
-
 ```{r repair, results="asis", cache=TRUE, echo=FALSE}
-get_pic(id = 132682, alt = "Bike in repair room", 400)
+get_pic(id = 132682, alt = "Bicicleta en reparación", 400)
 ```
 
+***
 
----
+## ¿Tus preguntas de la última vez?
 
-## Your questions from last time?
+***
 
----
+## Hoy: ¡documentación!
 
-## Today: docs!
+***
 
----
-
-## Questions?
+## ¿Preguntas?
