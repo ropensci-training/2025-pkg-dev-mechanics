@@ -2,15 +2,15 @@
 title: Demo
 weight: 3
 output: hugodown::md_document
-rmd_hash: 06eb86caef527a3a
+rmd_hash: 526ed0eabcca9575
 
 ---
 
-## System setup
+## Preparación de tu sistema
 
 -   `.Library`, [`.libPaths()`](https://rdrr.io/r/base/libPaths.html)
 
--   `install.packages("devtools")`. [Setup chapter of the R packages book](https://r-pkgs.org/setup.html).
+-   `install.packages("devtools")`. [Setup chapter del libro R packages](https://r-pkgs.org/setup.html).
 
 -   `install.packages("pak")`.
 
@@ -20,15 +20,15 @@ rmd_hash: 06eb86caef527a3a
 
 -   [`usethis::git_sitrep()`](https://usethis.r-lib.org/reference/git_sitrep.html). [Managing Git(Hub) Credentials](https://usethis.r-lib.org/articles/git-credentials.html); ["Managing GitHub credentials from R, difficulty level linux"](https://blog.djnavarro.net/posts/2021-08-08_git-credential-helpers/).
 
--   usethis and devtools setup in my .Rprofile. [`usethis::edit_r_profile()`](https://usethis.r-lib.org/reference/edit.html), what is an .Rprofile? [usethis setup article](https://usethis.r-lib.org/articles/articles/usethis-setup.html).
+-   usethis y devtools rn mi .Rprofile. [`usethis::edit_r_profile()`](https://usethis.r-lib.org/reference/edit.html), qué es un .Rprofile? [usethis setup article](https://usethis.r-lib.org/articles/articles/usethis-setup.html).
 
-Setup is not fun!
+La preparación no es divertida!
 
-:toolbox: (no breakout room) Anything still amiss to report? :fingers_crossed:
+:toolbox: (sin grupos) ¿Algún problema? :fingers_crossed:
 
 ------------------------------------------------------------------------
 
-## Package creation
+## Creación de paquete
 
 -   `pak::pkg_name_check("minipkg")`
 
@@ -40,51 +40,51 @@ Setup is not fun!
 
 -   [`usethis::use_git()`](https://usethis.r-lib.org/reference/use_git.html)
 
--   [`usethis::use_github()`](https://usethis.r-lib.org/reference/use_github.html). Look at repository including :sparkles: issue tracker :sparkles:.
+-   [`usethis::use_github()`](https://usethis.r-lib.org/reference/use_github.html). Mira al repositorio y su :sparkles: pagina de issus :sparkles:.
 
-:eyes: [usethis website](https://usethis.r-lib.org/)
+:eyes: [sitio de usethis](https://usethis.r-lib.org/)
 
-:toolbox: Repeat the same steps, post the link to your package repo in the chat!
+:toolbox: Repite las mismas tareas, envia el enlace de tu repositorio en el chat!
 
 ------------------------------------------------------------------------
 
-## A first function
+## Una primera función
 
--   `usethis::use_r("time")`. Explain what [`sprintf()`](https://rdrr.io/r/base/sprintf.html) does.
+-   `usethis::use_r("time")`. Explica qué [`sprintf()`](https://rdrr.io/r/base/sprintf.html) hace.
 
 -   `devtools::load()`, `what_time()`.
 
--   add an argument.
+-   Añade un argumento.
 
 -   `devtools::load()`, `what_time()`, `what_time(language = "en")`.
 
-:toolbox: Repeat the steps!
+:toolbox: ¡Repite los pasos!
 
 ------------------------------------------------------------------------
 
-## Manual page
+## Página del manual
 
--   Insert roxygen2 skeleton.
+-   Inserta el esqueleto roxygen2.
 
--   [`devtools::document()`](https://devtools.r-lib.org/reference/document.html), `?what_time`, show the Rd file.
+-   [`devtools::document()`](https://devtools.r-lib.org/reference/document.html), `?what_time`, muestra el archivo Rd.
 
--   Build and reload (install packages from RStudio build tab), try using the package from another session. Or install from GitHub.
+-   Construye y vuelve a cargar (instala los paquetes desde la pestaña de construcción de RStudio), intenta utilizar el paquete desde otra sesión. Instala desde GitHub.
 
-:eyes: [roxygen2 website](https://roxygen2.r-lib.org/)
+:eyes: [sitio de roxygen2](https://roxygen2.r-lib.org/)
 
-:eyes: [R Packages book, the whole game](https://r-pkgs.org/whole-game.html)
+:eyes: [Libro R Packages, the whole game](https://r-pkgs.org/whole-game.html)
 
-:toolbox: Repeat the steps!
+:toolbox: ¡Repite los pasos!
 
 ------------------------------------------------------------------------
 
-## Use dependencies
+## Usa dependencias
 
--   add two dependencies, `use_package("praise")` and `use_package("rlang")`.
+-   Añade dos dependencias, `use_package("praise")` y `use_package("rlang")`.
 
 -   `devtools::load()`, `what_time()`, `what_time(language = "en")`.
 
-:toolbox: Repeat the steps!
+:toolbox: ¡Repite los pasos!
 
 ------------------------------------------------------------------------
 

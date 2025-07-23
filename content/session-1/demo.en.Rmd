@@ -4,11 +4,11 @@ weight: 3
 output: hugodown::md_document
 ---
 
-## System setup
+## Preparación de tu sistema
 
 * `.Library`, `.libPaths()`
 
-* `install.packages("devtools")`. [Setup chapter of the R packages book](https://r-pkgs.org/setup.html).
+* `install.packages("devtools")`. [Setup chapter del libro R packages](https://r-pkgs.org/setup.html).
 
 * `install.packages("pak")`.
 
@@ -20,13 +20,13 @@ output: hugodown::md_document
 
 * usethis y devtools rn mi .Rprofile. `usethis::edit_r_profile()`, qué es un .Rprofile? [usethis setup article](https://usethis.r-lib.org/articles/articles/usethis-setup.html).
 
-Setup is not fun!
+La preparación no es divertida!
 
-:toolbox: (no breakout room) Anything still amiss to report? :fingers_crossed:
+:toolbox: (sin grupos) ¿Algún problema? :fingers_crossed:
 
 ---
 
-## Package creation
+## Creación de paquete
 
 * `pak::pkg_name_check("minipkg")`
 
@@ -38,132 +38,50 @@ Setup is not fun!
 
 * `usethis::use_git()`
 
-* `usethis::use_github()`. Look at repository including :sparkles: issue tracker :sparkles:.
+* `usethis::use_github()`. Mira al repositorio y su :sparkles: pagina de issus :sparkles:.
 
-:eyes: [usethis website](https://usethis.r-lib.org/)
+:eyes: [sitio de usethis](https://usethis.r-lib.org/)
 
-:toolbox: Repeat the same steps, post the link to your package repo in the chat!
-
----
-
-## A first function
-
-* `usethis::use_r("time")`. Explain what `sprintf()` does.
-
-* `devtools::load()`, `what_time()`.
-
-* add an argument.
-
-* `devtools::load()`, `what_time()`, `what_time(language = "en")`.
-
-:toolbox: Repeat the steps!
+:toolbox: Repite las mismas tareas, envia el enlace de tu repositorio en el chat!
 
 ---
-
-## Manual page
-
-* Insert roxygen2 skeleton.
-
-* `devtools::document()`, `?what_time`, show the Rd file.
-
-* Build and reload (install packages from RStudio build tab), try using the package from another session. Or install from GitHub.
-
-:eyes: [roxygen2 website](https://roxygen2.r-lib.org/)
-
-:eyes: [R Packages book, the whole game](https://r-pkgs.org/whole-game.html)
-
-:toolbox: Repeat the steps!
-
----
-
-## Use dependencies
-
-* add two dependencies, `use_package("praise")` and `use_package("rlang")`.
-
-* `devtools::load()`, `what_time()`, `what_time(language = "en")`.
-
-:toolbox: Repeat the steps!
-
----
-
-## Configuración del sistema
-
-- `.Library`, `.libPaths()`
-
-- `install.packages("devtools")`. [Capítulo Configuración del libro Paquetes de R](https://r-pkgs.org/setup.html).
-
-- `install.packages("pak")`.
-
-- `devtools::has_devel()`
-
-- `devtools::dev_sitrep()`
-
-- `usethis::git_sitrep()`. [Gestión de credenciales Git(Hub)](https://usethis.r-lib.org/articles/git-credentials.html); ["Gestionar las credenciales de GitHub desde R, nivel de dificultad linux"](https://blog.djnavarro.net/posts/2021-08-08_git-credential-helpers/).
-
-- usethis y devtools setup en mi .Rprofile. `usethis::edit_r_profile()` ¿qué es un .Rprofile? [artículo sobre la configuración de usethis](https://usethis.r-lib.org/articles/articles/usethis-setup.html).
-
-¡La instalación no es divertida!
-
-:caja\_de\_herramientas: (no hay sala de descanso) ¿Sigue faltando algo de lo que informar? :dedos\_cruzados:
-
-***
-
-## Creación de paquetes
-
-- `pak::pkg_name_check("minipkg")`
-
-- `usethis::create_package("../minipkg")`
-
-- `usethis::edit_r_profile()`
-
-- `devtools::check()`, `usethis::use_mit_license`
-
-- `usethis::use_git()`
-
-- `usethis::use_github()`. Mira el repositorio incluido :sparkles: issue tracker :sparkles:.
-
-:ojos: [utiliza este sitio web](https://usethis.r-lib.org/)
-
-:caja de herramientas: Repite los mismos pasos, ¡publica el enlace a tu repo de paquetes en el chat!
-
-***
 
 ## Una primera función
 
-- `usethis::use_r("time")`. Explica qué `sprintf()` hace.
+* `usethis::use_r("time")`. Explica qué `sprintf()` hace.
 
-- `devtools::load()`, `what_time()`.
+* `devtools::load()`, `what_time()`.
 
-- añade un argumento.
+* Añade un argumento.
 
-- `devtools::load()`, `what_time()`, `what_time(language = "en")`.
+* `devtools::load()`, `what_time()`, `what_time(language = "en")`.
 
-:caja de herramientas: ¡Repite los pasos!
+:toolbox: ¡Repite los pasos!
 
-***
+---
 
-## Página manual
+## Página del manual
 
 - Inserta el esqueleto roxygen2.
 
 - `devtools::document()`, `?what_time`, muestra el archivo Rd.
 
-- Construye y vuelve a cargar (instala los paquetes desde la pestaña de construcción de RStudio), intenta utilizar el paquete desde otra sesión. O instala desde GitHub.
+- Construye y vuelve a cargar (instala los paquetes desde la pestaña de construcción de RStudio), intenta utilizar el paquete desde otra sesión. Instala desde GitHub.
 
-:ojos: [roxygen2 sitio web](https://roxygen2.r-lib.org/)
+:eyes: [sitio de roxygen2](https://roxygen2.r-lib.org/)
 
-:ojos: [R Libro de paquetes, todo el juego](https://r-pkgs.org/whole-game.html)
+:eyes: [Libro R Packages, the whole game](https://r-pkgs.org/whole-game.html)
 
-:caja de herramientas: ¡Repite los pasos!
+:toolbox: ¡Repite los pasos!
 
-***
+---
 
-## Utilizar dependencias
+## Usa dependencias
 
-- añade dos dependencias, `use_package("praise")` y `use_package("rlang")`.
+* Añade dos dependencias, `use_package("praise")` y `use_package("rlang")`.
 
-- `devtools::load()`, `what_time()`, `what_time(language = "en")`.
+* `devtools::load()`, `what_time()`, `what_time(language = "en")`.
 
-:caja de herramientas: ¡Repite los pasos!
+:toolbox: ¡Repite los pasos!
 
-***
+---
