@@ -1,0 +1,51 @@
+---
+title: Demo
+weight: 3
+output: hugodown::md_document
+---
+
+## Reminder from last time
+
+We have a package with a function.
+
+---
+
+## A test
+
+* `use_testthat()`.
+
+* `use_test("time")`: first a simple test, then a snapshot test, then a snapshot of the error.
+
+* `devtools::test()` / test the file on its own via the button.
+
+* `devtools::check()`
+
+:eyes: [testthat website](https://testthat.r-lib.org/)
+
+---
+
+## More testing
+
+* Use `withr::local_options()` in a test.
+
+* Look at the docs of `testthat::test_path()`.
+
+* Create a helper function in a file `tests/testthat/helper-bla.R`, use it in a test.
+
+:eyes: [withr website](https://withr.r-lib.org/)
+
+:eyes: [Helper code and files for your testthat tests](https://blog.r-hub.io/2020/11/18/testthat-utility-belt/)
+
+:toolbox: repeat the steps!
+
+---
+
+## GitHub Actions
+
+* `usethis::use_github_action_check_standard()`. Check on the cloud, different operating systems.
+
+:eyes: [usethis support for GitHub Actions setup](https://usethis.r-lib.org/reference/github_actions.html)
+
+:toolbox: Repeat the steps!
+
+---

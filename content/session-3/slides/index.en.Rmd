@@ -1,0 +1,54 @@
+---
+outputs:
+- Reveal
+title: Become an R Package Developer!
+hidden: true
+layout: list
+weight: 11
+output: hugodown::md_document
+countdown: true
+---
+
+# Package Development
+
+```{r, echo=FALSE}
+library("magrittr")
+get_pic <- function(id, alt, width) {
+  
+  info <- httr::GET(
+    paste0("https://api.pexels.com/v1/photos/", id),
+    httr::add_headers(Authorization = Sys.getenv("PEXELS_KEY"))
+  ) %>%
+    httr::content()
+  download.file(info$src$large, paste0(id, ".jpeg"))
+  cat("```{=html}\n")
+cat(paste0('{', '{< figure src="',
+paste0(id, ".jpeg"),
+'" alt="',
+alt,
+'" caption="Picture by [',
+info$photographer,
+' on Pexels](',
+info$url,
+')." width="',
+width , '" >}', '}'))
+cat("\n```\n")
+}
+```
+
+```{r repair, results="asis", cache=TRUE, echo=FALSE}
+get_pic(id = 132682, alt = "Bike in repair room", 400)
+```
+
+
+---
+
+## Your questions from last time?
+
+---
+
+## Today: docs!
+
+---
+
+## Questions?
