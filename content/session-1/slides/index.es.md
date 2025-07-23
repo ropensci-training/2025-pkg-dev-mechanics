@@ -93,7 +93,7 @@ Susan Johnston [preguntó](https://github.com/susjoh/fibonacci).
 
 > Para tener menos miedo, tienes que decirte a ti mismo que se trata simplemente de una carpeta organizada de forma constreñida.
 
-[Traducción de una frase Sébastien Rochette](https://thinkr.fr/transformer-plusieurs-scripts-eparpilles-en-beau-package-r)
+[Traducción de una frase de Sébastien Rochette](https://thinkr.fr/transformer-plusieurs-scripts-eparpilles-en-beau-package-r)
 
 ------------------------------------------------------------------------
 
