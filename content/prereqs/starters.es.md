@@ -3,11 +3,6 @@ title: "Preparación"
 weight: 1
 ---
 
----
-title: Preparación
-weight: 1
----
-
 Antes de empezar a escribir paquetes...
 
 - Configura tu sistema como [explicado en el libro Paquetes R de Hadley Wickham y Jenny Bryan](https://r-pkgs.org/setup.html). Ponte en contacto conmigo (mensaje de Slack, `maelle@ropensci.org`) si la llamada a `devtools::has_devel()` te da un error que te desconcierta.
