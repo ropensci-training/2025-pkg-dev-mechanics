@@ -167,7 +167,7 @@ get_pic(id = 686230, alt = "Bike sign on a bike path, with tree leaves", 300)
 
 ## Visita al sitio web
 
-:link: <https://rpkgdev-mechanics-2025.netlify.app/>
+:link: <https://desarrollo-paquetes-basico-2025.netlify.app/>
 
 Diapositivas, notas de demostración, otros recursos
 

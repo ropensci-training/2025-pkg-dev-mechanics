@@ -145,7 +145,7 @@ Trabajo regular, enseñanza, reproducción de problemas.
 
 ## Visita al sitio web
 
-:link: <https://rpkgdev-mechanics-2025.netlify.app/>
+:link: <https://desarrollo-paquetes-basico-2025.netlify.app/>
 
 Diapositivas, notas de demostración, otros recursos
 
