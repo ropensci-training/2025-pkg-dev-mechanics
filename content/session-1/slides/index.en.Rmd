@@ -1,7 +1,7 @@
 ---
 outputs:
 - Reveal
-title: Become an R Package Developer!
+title: ¡Desarrolla paquetes!
 hidden: true
 layout: list
 weight: 11
@@ -9,12 +9,11 @@ output: hugodown::md_document
 countdown: true
 ---
 
-# Package Development
+# Desarrollo de paquetes
 
-```{r, echo=FALSE}
+```{r, echo=FALSE, message=FALSE}
 library("magrittr")
 get_pic <- function(id, alt, width) {
-  
   info <- httr::GET(
     paste0("https://api.pexels.com/v1/photos/", id),
     httr::add_headers(Authorization = Sys.getenv("PEXELS_KEY"))
@@ -22,17 +21,22 @@ get_pic <- function(id, alt, width) {
     httr::content()
   download.file(info$src$large, paste0(id, ".jpeg"))
   cat("```{=html}\n")
-cat(paste0('{', '{< figure src="',
-paste0(id, ".jpeg"),
-'" alt="',
-alt,
-'" caption="Picture by [',
-info$photographer,
-' on Pexels](',
-info$url,
-')." width="',
-width , '" >}', '}'))
-cat("\n```\n")
+  cat(paste0(
+    '{',
+    '{< figure src="',
+    paste0(id, ".jpeg"),
+    '" alt="',
+    alt,
+    '" caption="Foto de [',
+    info$photographer,
+    ' on Pexels](',
+    info$url,
+    ')." width="',
+    width,
+    '" >}',
+    '}'
+  ))
+  cat("\n```\n")
 }
 ```
 
@@ -42,202 +46,186 @@ get_pic(id = 132682, alt = "Bike in repair room", 400)
 
 
 ---
+## Mis credenciales de desarrollo de paquetes R
 
-## My R package development creds
 
-I really :heart: R package development
+- Editora voluntaria para [de Revisión de software por pares de rOpenSci](https://ropensci.org/es/software-review).
 
-* Volunteer editor for [rOpenSci Software Peer Review](https://ropensci.org/software-review).
+- Mantenimiento de la [Guía de desarrollo de rOpenSci](https://devguide.ropensci.org/es/index.es.html).
 
-* At work, maintenance of [rOpenSci dev guide](https://devguide.ropensci.org).
+- Creé el [blog R-hub](https://blog.r-hub.io).
 
-* Created the [R-hub blog](https://blog.r-hub.io).
+- Libro [HTTP testing in R](https://books.ropensci.org/http-testing/) con Scott Chamberlain.
 
-* Worked on the [HTTP testing in R](https://books.ropensci.org/http-testing/) book.
+- Participé en el desarrollo de varios paquetes.
 
----
 
-## My R package development creds
+## ¿Por qué desarrollar un paquete R?
 
-Contributed to
+La forma más fácil de compartir código/datos/plantillas R Markdown... con
 
-* [pkgdown 2.0.0](https://www.tidyverse.org/blog/2021/12/pkgdown-2-0-0/) (to produce documentation websites for packages)
+- te (en el futuro),
 
-* [fledge 0.1.0](https://cynkra.github.io/fledge/) (Smoother change tracking and versioning for R packages)
+- las personas que conoces,
 
-* [glitter 0.1.0](https://lvaudor.github.io/glitter/) (a SPARQL domain-specific language)
+- y los personas que no conoces.
 
----
+***
 
-## Why develop an R package?
+## ¿Por qué aprender sobre el desarrollo de paquetes?
 
-Easiest way to share code/data/R Markdown templates... with
+[Jon Calder](https://joncalder.co.za/) [explicó](https://github.com/iandurbach/datasci-fi/tree/master/docs/packages/slides)
 
-* (future) you,
+- Compartir código (y datos);
 
-* the collaborators you know,
+- Para aprovechar las herramientas existentes;
 
-* and the collaborators you don't.
+- Para contribuir a otros paquetes.
 
----
+***
 
-## Why learning about package development?
+## ¿Quién puede escribir un paquete? ¡TÚ!
 
-[Jon Calder](https://joncalder.co.za/)'s very good [wording](https://github.com/iandurbach/datasci-fi/tree/master/docs/packages/slides)
+Susan Johnston [preguntó](https://github.com/susjoh/fibonacci).
 
-* To share code (and data);
+- ¿Puedes abrir R o RStudio?
 
-* To leverage existing tooling;
+- ¿Puedes instalar un paquete?
 
-* To contribute to other packages.
+- ¿Has escrito alguna vez una función en R?
 
----
+- ¿Podrías *aprender* a escribir una función en R?
 
-## Who can write a package? YOU!
+**¡Puedes escribir un paquete en R!**
 
-Susan Johnston's [wise words](https://github.com/susjoh/fibonacci).
+***
 
-* Can you open R or RStudio?
+## Recursos sobre funciones
 
-* Can you install a package?
+- [Materiales del tutorial R-Ladies East Lansing de Stephanie Kirmer](https://github.com/rladies-eastlansing/2021-rfunctions#writing-r-functions)
 
-* Have you ever written a function in R?
+- [Escribe tus propias funciones de R](https://stat545.com/functions-part1.html), curso stat 545 por Jenny Bryan y The STAT 545 TAs;
 
-* Could you _learn_ how to write a function in R?
+- [Capítulo sobre funciones](https://r4ds.had.co.nz/functions.html) en el libro "R for Data Science" de Garrett Grolemund y Hadley Wickham;
 
-:arrow_right:  **You can write a package in R!**
+- [Charla "Fun with Functions](https://zealous-wiles-e22e83.netlify.app/talk/funwithfunctions/) por Kaylea Haynes, R-Ladies Manchester.
 
----
+***
 
-## Learn about functions
+## ¿Qué es un paquete?
+> Para tener menos miedo, tienes que decirte a ti mismo que se trata simplemente de una carpeta organizada de forma constreñida.
 
-* [Materials from Stephanie Kirmer's R-Ladies East Lansing tutorial](https://github.com/rladies-eastlansing/2021-rfunctions#writing-r-functions)
+[Traducción de una frase Sébastien Rochette](https://thinkr.fr/transformer-plusieurs-scripts-eparpilles-en-beau-package-r)
 
-* [Write your own R functions](https://stat545.com/functions-part1.html), stat 545 course by Jenny Bryan and The STAT 545 TAs;
-* [Chapter about functions](https://r4ds.had.co.nz/functions.html) in the book "R for Data Science" by Garrett Grolemund and Hadley Wickham;
-* [Fun with Functions talk](https://zealous-wiles-e22e83.netlify.app/talk/funwithfunctions/) by Kaylea Haynes, R-Ladies Manchester.
+***
 
----
-
-## What is a package?
-
->  Pour réduire ses craintes, il faut se dire que ce n’est ni plus ni moins qu’un dossier organisé d’une manière contrainte.
-
-> To be less afraid you have to tell yourself that it's simply a folder organized in a constrained way.
-
-[Sébastien Rochette](https://thinkr.fr/transformer-plusieurs-scripts-eparpilles-en-beau-package-r)
-
----
-
-## Automation!
+## Automatización
 
 ```{=html}
-{{< figure src="automate_meme.jpg" alt="Small monster saying to automate all the things" caption="Meme image by [Allie Brosh](https://en.wikipedia.org/wiki/Hyperbole_and_a_Half)" >}}
+{{< figure src="automate_meme.jpg" alt="Pequeño monstruo que dice automatizar todas las cosas"  caption="Imagen del meme por [Allie Brosh](https://en.wikipedia.org/wiki/Hyperbole_and_a_Half)"  >}}
 ```
 
----
+***
 
-## Automating... How?
+## Automatizar... ¿Cómo?
 
-Remember Clippy?
+¿Te acuerdas de Clippy?
 
----
+***
 
-## Automating... How?
+## Automatizando... ¿Cómo?
 
-Get to know an actually useful Clippy, `{usethis}`!
+Conoce un Clippy realmente útil, `{usethis}` ¡!
 
 ```{=html}
-{{< figure src="https://usethis.r-lib.org/reference/figures/logo.png" alt="usethis logo, a robot" >}}
+{{< figure src="https://usethis.r-lib.org/reference/figures/logo.png" alt="usa este logo, un robot"  >}}
 ```
 
----
+***
 
-## Why automate? Easier for...
+## ¿Por qué automatizar? Más fácil para...
 
-Regular work, teaching, reproducing problems.
+Trabajo regular, enseñanza, reproducción de problemas.
 
 ```{r wheel, results="asis", cache=TRUE, echo=FALSE}
 get_pic(id = 5446296, alt = "Bike wheel with tools on the floor", 200)
 ```
 
----
+***
 
-## Goals for the three sessions
+## Objetivos para las tres sesiones
 
-* Get to know (the best :innocent:) tools for package development;
+- Conocer (las mejores :innocent:) herramientas para el desarrollo de paquetes;
 
-* Learn that there is no magic, only practice and :sparkles: tips :sparkles:.
-
+- Aprende que no hay magia, sólo práctica y :sparkles: consejos :sparkles:.
 
 ```{r tiny, results="asis", cache=TRUE, echo=FALSE}
 get_pic(id = 686230, alt = "Bike sign on a bike path, with tree leaves", 300)
 ```
 
----
+***
 
-## Website tour
+## Visita al sitio web
 
-:link: https://rpkgdev-mechanics-2024.netlify.app/
+:link: <https://rpkgdev-mechanics-2025.netlify.app/>
 
-Slides, demo notes, further resources
+Diapositivas, notas de demostración, otros recursos
 
 ```{r balance, results="asis", cache=TRUE, echo=FALSE}
 get_pic(id = 3932867, alt = "Small kid on a balance bike", 200)
 ```
 
----
+***
 
-## Time for the workshop :bicycle:
+## Hora del taller :bike:
 
-Alternating between watching and practicing in breakout rooms.
+Alternando entre ver y practicar en las salas de Zoom.
 
 ```{r parkes, results="asis", cache=TRUE, echo=FALSE}
 get_pic(id = 221237, alt = "Two bikes parked", 200)
 ```
----
 
+***
 
-## Back from the workshop
+## De vuelta del taller
 
-`{usethis}` for all the things.
+`{usethis}` para todo.
 
 ```{r sign, results="asis", cache=TRUE, echo=FALSE}
 get_pic(id = 206040, alt = "Cycle path sign", 400)
 ```
 
----
+***
 
-## usethis related content in `.Rprofile`
+## `.Rprofile`
 
-Like saving the settings of a bike.
+Como guardar los ajustes de una bicicleta.
 
-No need to adjust the saddle height every time you go for a ride!
+¡No tendrás que ajustar la altura del sillín cada vez que salgas a dar una vuelta!
 
----
+***
 
-## Two wheels always turning :bike:
+## Dos ruedas siempre girando :bike:
 
-- loading, trying out, editing.
+- Cargando, probando, editando.
 
-- running (adding) the tests, editing. Next time!
+- Ejecutar (añadir) las pruebas, editar. En la próxima sesión!
 
+***
 
----
-
-## R CMD check (devtools::check())
+## Comprobación R CMD (devtools::check())
 
 ```{r traffic, results="asis", cache=TRUE, echo=FALSE}
 get_pic(id = 4543112, alt = "Bike traffic light", 300)
 ```
 
----
+***
 
-## Questions?
+## ¿Tienes preguntas?
 
-See you at the next package development training?
+¿Nos vemos en el próximo curso de desarrollo de paquetes?
 
-Prepare questions in advance, send them in advance if you can.
+Prepara las preguntas con antelación, envíalas con antelación si puedes.
 
 ```{=html}
 <iframe src="https://giphy.com/embed/XFpCAWSfTwXh2uSEk2" width="480" height="269" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/moon-et-extra-terrestrial-XFpCAWSfTwXh2uSEk2">via GIPHY</a></p>

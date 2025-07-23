@@ -1,17 +1,17 @@
 ---
 outputs:
 - Reveal
-title: Become an R Package Developer!
+title: ¡Desarrolla paquetes!
 hidden: true
 layout: list
 weight: 11
 output: hugodown::md_document
 countdown: true
-rmd_hash: da86d884cda37933
+rmd_hash: 2225c7fe53272723
 
 ---
 
-# Package Development
+# Desarrollo de paquetes
 
 <div class="highlight">
 
@@ -25,117 +25,101 @@ rmd_hash: da86d884cda37933
 
 ------------------------------------------------------------------------
 
-## My R package development creds
+## Mis credenciales de desarrollo de paquetes R
 
-I really :heart: R package development
+-   Editora voluntaria para [de Revisión de software por pares de rOpenSci](https://ropensci.org/es/software-review).
 
--   Volunteer editor for [rOpenSci Software Peer Review](https://ropensci.org/software-review).
+-   Mantenimiento de la [Guía de desarrollo de rOpenSci](https://devguide.ropensci.org/es/index.es.html).
 
--   At work, maintenance of [rOpenSci dev guide](https://devguide.ropensci.org).
+-   Creé el [blog R-hub](https://blog.r-hub.io).
 
--   Created the [R-hub blog](https://blog.r-hub.io).
+-   Libro [HTTP testing in R](https://books.ropensci.org/http-testing/) con Scott Chamberlain.
 
--   Worked on the [HTTP testing in R](https://books.ropensci.org/http-testing/) book.
+-   Participé en el desarrollo de varios paquetes.
 
-------------------------------------------------------------------------
+## ¿Por qué desarrollar un paquete R?
 
-## My R package development creds
+La forma más fácil de compartir código/datos/plantillas R Markdown... con
 
-Contributed to
+-   te (en el futuro),
 
--   [pkgdown 2.0.0](https://www.tidyverse.org/blog/2021/12/pkgdown-2-0-0/) (to produce documentation websites for packages)
+-   las personas que conoces,
 
--   [fledge 0.1.0](https://cynkra.github.io/fledge/) (Smoother change tracking and versioning for R packages)
-
--   [glitter 0.1.0](https://lvaudor.github.io/glitter/) (a SPARQL domain-specific language)
+-   y los personas que no conoces.
 
 ------------------------------------------------------------------------
 
-## Why develop an R package?
+## ¿Por qué aprender sobre el desarrollo de paquetes?
 
-Easiest way to share code/data/R Markdown templates... with
+[Jon Calder](https://joncalder.co.za/) [explicó](https://github.com/iandurbach/datasci-fi/tree/master/docs/packages/slides)
 
--   (future) you,
+-   Compartir código (y datos);
 
--   the collaborators you know,
+-   Para aprovechar las herramientas existentes;
 
--   and the collaborators you don't.
-
-------------------------------------------------------------------------
-
-## Why learning about package development?
-
-[Jon Calder](https://joncalder.co.za/)'s very good [wording](https://github.com/iandurbach/datasci-fi/tree/master/docs/packages/slides)
-
--   To share code (and data);
-
--   To leverage existing tooling;
-
--   To contribute to other packages.
+-   Para contribuir a otros paquetes.
 
 ------------------------------------------------------------------------
 
-## Who can write a package? YOU!
+## ¿Quién puede escribir un paquete? ¡TÚ!
 
-Susan Johnston's [wise words](https://github.com/susjoh/fibonacci).
+Susan Johnston [preguntó](https://github.com/susjoh/fibonacci).
 
--   Can you open R or RStudio?
+-   ¿Puedes abrir R o RStudio?
 
--   Can you install a package?
+-   ¿Puedes instalar un paquete?
 
--   Have you ever written a function in R?
+-   ¿Has escrito alguna vez una función en R?
 
--   Could you *learn* how to write a function in R?
+-   ¿Podrías *aprender* a escribir una función en R?
 
-:arrow_right: **You can write a package in R!**
-
-------------------------------------------------------------------------
-
-## Learn about functions
-
--   [Materials from Stephanie Kirmer's R-Ladies East Lansing tutorial](https://github.com/rladies-eastlansing/2021-rfunctions#writing-r-functions)
-
--   [Write your own R functions](https://stat545.com/functions-part1.html), stat 545 course by Jenny Bryan and The STAT 545 TAs;
-
--   [Chapter about functions](https://r4ds.had.co.nz/functions.html) in the book "R for Data Science" by Garrett Grolemund and Hadley Wickham;
-
--   [Fun with Functions talk](https://zealous-wiles-e22e83.netlify.app/talk/funwithfunctions/) by Kaylea Haynes, R-Ladies Manchester.
+**¡Puedes escribir un paquete en R!**
 
 ------------------------------------------------------------------------
 
-## What is a package?
+## Recursos sobre funciones
 
-> Pour réduire ses craintes, il faut se dire que ce n'est ni plus ni moins qu'un dossier organisé d'une manière contrainte.
+-   [Materiales del tutorial R-Ladies East Lansing de Stephanie Kirmer](https://github.com/rladies-eastlansing/2021-rfunctions#writing-r-functions)
 
-> To be less afraid you have to tell yourself that it's simply a folder organized in a constrained way.
+-   [Escribe tus propias funciones de R](https://stat545.com/functions-part1.html), curso stat 545 por Jenny Bryan y The STAT 545 TAs;
 
-[Sébastien Rochette](https://thinkr.fr/transformer-plusieurs-scripts-eparpilles-en-beau-package-r)
+-   [Capítulo sobre funciones](https://r4ds.had.co.nz/functions.html) en el libro "R for Data Science" de Garrett Grolemund y Hadley Wickham;
 
-------------------------------------------------------------------------
-
-## Automation!
-
-{{< figure src="automate_meme.jpg" alt="Small monster saying to automate all the things" caption="Meme image by [Allie Brosh](https://en.wikipedia.org/wiki/Hyperbole_and_a_Half)" >}}
+-   [Charla "Fun with Functions](https://zealous-wiles-e22e83.netlify.app/talk/funwithfunctions/) por Kaylea Haynes, R-Ladies Manchester.
 
 ------------------------------------------------------------------------
 
-## Automating... How?
+## ¿Qué es un paquete?
 
-Remember Clippy?
+> Para tener menos miedo, tienes que decirte a ti mismo que se trata simplemente de una carpeta organizada de forma constreñida.
 
-------------------------------------------------------------------------
-
-## Automating... How?
-
-Get to know an actually useful Clippy, `{usethis}`!
-
-{{< figure src="https://usethis.r-lib.org/reference/figures/logo.png" alt="usethis logo, a robot" >}}
+[Traducción de una frase Sébastien Rochette](https://thinkr.fr/transformer-plusieurs-scripts-eparpilles-en-beau-package-r)
 
 ------------------------------------------------------------------------
 
-## Why automate? Easier for...
+## Automatización
 
-Regular work, teaching, reproducing problems.
+{{< figure src="automate_meme.jpg" alt="Pequeño monstruo que dice automatizar todas las cosas"  caption="Imagen del meme por [Allie Brosh](https://en.wikipedia.org/wiki/Hyperbole_and_a_Half)"  >}}
+
+------------------------------------------------------------------------
+
+## Automatizar... ¿Cómo?
+
+¿Te acuerdas de Clippy?
+
+------------------------------------------------------------------------
+
+## Automatizando... ¿Cómo?
+
+Conoce un Clippy realmente útil, `{usethis}` ¡!
+
+{{< figure src="https://usethis.r-lib.org/reference/figures/logo.png" alt="usa este logo, un robot"  >}}
+
+------------------------------------------------------------------------
+
+## ¿Por qué automatizar? Más fácil para...
+
+Trabajo regular, enseñanza, reproducción de problemas.
 
 <div class="highlight">
 
@@ -145,11 +129,11 @@ Regular work, teaching, reproducing problems.
 
 ------------------------------------------------------------------------
 
-## Goals for the three sessions
+## Objetivos para las tres sesiones
 
--   Get to know (the best :innocent:) tools for package development;
+-   Conocer (las mejores :innocent:) herramientas para el desarrollo de paquetes;
 
--   Learn that there is no magic, only practice and :sparkles: tips :sparkles:.
+-   Aprende que no hay magia, sólo práctica y :sparkles: consejos :sparkles:.
 
 <div class="highlight">
 
@@ -159,11 +143,11 @@ Regular work, teaching, reproducing problems.
 
 ------------------------------------------------------------------------
 
-## Website tour
+## Visita al sitio web
 
-:link: <https://rpkgdev-mechanics-2024.netlify.app/>
+:link: <https://rpkgdev-mechanics-2025.netlify.app/>
 
-Slides, demo notes, further resources
+Diapositivas, notas de demostración, otros recursos
 
 <div class="highlight">
 
@@ -173,9 +157,9 @@ Slides, demo notes, further resources
 
 ------------------------------------------------------------------------
 
-## Time for the workshop :bicycle:
+## Hora del taller :bike:
 
-Alternating between watching and practicing in breakout rooms.
+Alternando entre ver y practicar en las salas de Zoom.
 
 <div class="highlight">
 
@@ -185,9 +169,9 @@ Alternating between watching and practicing in breakout rooms.
 
 ------------------------------------------------------------------------
 
-## Back from the workshop
+## De vuelta del taller
 
-`{usethis}` for all the things.
+`{usethis}` para todo.
 
 <div class="highlight">
 
@@ -197,23 +181,23 @@ Alternating between watching and practicing in breakout rooms.
 
 ------------------------------------------------------------------------
 
-## usethis related content in `.Rprofile`
+## `.Rprofile`
 
-Like saving the settings of a bike.
+Como guardar los ajustes de una bicicleta.
 
-No need to adjust the saddle height every time you go for a ride!
-
-------------------------------------------------------------------------
-
-## Two wheels always turning :bike:
-
--   loading, trying out, editing.
-
--   running (adding) the tests, editing. Next time!
+¡No tendrás que ajustar la altura del sillín cada vez que salgas a dar una vuelta!
 
 ------------------------------------------------------------------------
 
-## R CMD check (devtools::check())
+## Dos ruedas siempre girando :bike:
+
+-   Cargando, probando, editando.
+
+-   Ejecutar (añadir) las pruebas, editar. En la próxima sesión!
+
+------------------------------------------------------------------------
+
+## Comprobación R CMD (devtools::check())
 
 <div class="highlight">
 
@@ -223,11 +207,11 @@ No need to adjust the saddle height every time you go for a ride!
 
 ------------------------------------------------------------------------
 
-## Questions?
+## ¿Tienes preguntas?
 
-See you at the next package development training?
+¿Nos vemos en el próximo curso de desarrollo de paquetes?
 
-Prepare questions in advance, send them in advance if you can.
+Prepara las preguntas con antelación, envíalas con antelación si puedes.
 
 <iframe src="https://giphy.com/embed/XFpCAWSfTwXh2uSEk2" width="480" height="269" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/moon-et-extra-terrestrial-XFpCAWSfTwXh2uSEk2">via GIPHY</a></p>
 
