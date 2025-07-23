@@ -29,7 +29,7 @@ get_pic <- function(id, alt, width) {
     alt,
     '" caption="Foto de [',
     info$photographer,
-    ' on Pexels](',
+    ' en Pexels](',
     info$url,
     ')." width="',
     width,

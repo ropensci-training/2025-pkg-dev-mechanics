@@ -7,7 +7,7 @@ layout: list
 weight: 11
 output: hugodown::md_document
 countdown: true
-rmd_hash: 2225c7fe53272723
+rmd_hash: e3d16d1089c82e7b
 
 ---
 
@@ -19,7 +19,7 @@ rmd_hash: 2225c7fe53272723
 
 <div class="highlight">
 
-{{< figure src="132682.jpeg" alt="Bike in repair room" caption="Foto de [Alexander Dummer on Pexels](https://www.pexels.com/photo/black-road-bicycle-inside-room-132682/)." width="400" >}}
+{{< figure src="132682.jpeg" alt="Bike in repair room" caption="Foto de [Alexander Dummer en Pexels](https://www.pexels.com/photo/black-road-bicycle-inside-room-132682/)." width="400" >}}
 
 </div>
 
@@ -123,7 +123,7 @@ Trabajo regular, enseñanza, reproducción de problemas.
 
 <div class="highlight">
 
-{{< figure src="5446296.jpeg" alt="Bike wheel with tools on the floor" caption="Foto de [cottonbro studio on Pexels](https://www.pexels.com/photo/wrench-on-a-ground-5446296/)." width="200" >}}
+{{< figure src="5446296.jpeg" alt="Bike wheel with tools on the floor" caption="Foto de [cottonbro studio en Pexels](https://www.pexels.com/photo/wrench-on-a-ground-5446296/)." width="200" >}}
 
 </div>
 
@@ -137,7 +137,7 @@ Trabajo regular, enseñanza, reproducción de problemas.
 
 <div class="highlight">
 
-{{< figure src="686230.jpeg" alt="Bike sign on a bike path, with tree leaves" caption="Foto de [Cristiana Raluca on Pexels](https://www.pexels.com/photo/white-bicycle-road-sign-686230/)." width="300" >}}
+{{< figure src="686230.jpeg" alt="Bike sign on a bike path, with tree leaves" caption="Foto de [Cristiana Raluca en Pexels](https://www.pexels.com/photo/white-bicycle-road-sign-686230/)." width="300" >}}
 
 </div>
 
@@ -151,7 +151,7 @@ Diapositivas, notas de demostración, otros recursos
 
 <div class="highlight">
 
-{{< figure src="3932867.jpeg" alt="Small kid on a balance bike" caption="Foto de [Tatiana Syrikova on Pexels](https://www.pexels.com/photo/anonymous-kid-in-helmet-riding-run-bike-on-pavement-in-countryside-3932867/)." width="200" >}}
+{{< figure src="3932867.jpeg" alt="Small kid on a balance bike" caption="Foto de [Tatiana Syrikova en Pexels](https://www.pexels.com/photo/anonymous-kid-in-helmet-riding-run-bike-on-pavement-in-countryside-3932867/)." width="200" >}}
 
 </div>
 
@@ -163,7 +163,7 @@ Alternando entre ver y practicar en las salas de Zoom.
 
 <div class="highlight">
 
-{{< figure src="221237.jpeg" alt="Two bikes parked" caption="Foto de [Pixabay on Pexels](https://www.pexels.com/photo/two-bicycles-parked-upright-221237/)." width="200" >}}
+{{< figure src="221237.jpeg" alt="Two bikes parked" caption="Foto de [Pixabay en Pexels](https://www.pexels.com/photo/two-bicycles-parked-upright-221237/)." width="200" >}}
 
 </div>
 
@@ -175,7 +175,7 @@ Alternando entre ver y practicar en las salas de Zoom.
 
 <div class="highlight">
 
-{{< figure src="206040.jpeg" alt="Cycle path sign" caption="Foto de [Nika Dzamashvili on Pexels](https://www.pexels.com/photo/black-and-white-bicycle-road-sign-206040/)." width="400" >}}
+{{< figure src="206040.jpeg" alt="Cycle path sign" caption="Foto de [Nika Dzamashvili en Pexels](https://www.pexels.com/photo/black-and-white-bicycle-road-sign-206040/)." width="400" >}}
 
 </div>
 
@@ -201,7 +201,7 @@ Como guardar los ajustes de una bicicleta.
 
 <div class="highlight">
 
-{{< figure src="4543112.jpeg" alt="Bike traffic light" caption="Foto de [cottonbro studio on Pexels](https://www.pexels.com/photo/traffic-light-on-red-light-4543112/)." width="300" >}}
+{{< figure src="4543112.jpeg" alt="Bike traffic light" caption="Foto de [cottonbro studio en Pexels](https://www.pexels.com/photo/traffic-light-on-red-light-4543112/)." width="300" >}}
 
 </div>
 
