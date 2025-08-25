@@ -15,13 +15,13 @@ Esa función tiene una página de manual local.
 
 - `install.packages("rmarkdown")`, `usethis::use_readme_rmd()`, escribir cosas, `devtools::build_readme()`, commit+push, mirar el repositorio de GitHub.
 
-- `usethis::use_vignette("minipkg")`, escribe cosas. Viñeta != artículo.
+- `usethis::use_vignette("minipkg")`, escribí cosas. Viñeta != artículo.
 
 - `install.packages("pkgdown")`, `usethis::use_pkgdown()`, `pkgdown::build_site()`. Localmente.
 
 :ojos: [pkgdown sitio web](https://pkgdown.r-lib.org/)
 
-:toolbox: ¡Repite los pasos!
+:toolbox: ¡Repetí los pasos!
 
 ## Construir el sitio web automáticamente
 
@@ -29,6 +29,6 @@ Esa función tiene una página de manual local.
 
 :ojos: [usa esta función para configurar las Acciones de GitHub](https://usethis.r-lib.org/reference/github_actions.html)
 
-:toolbox: ¡Repite los pasos!
+:toolbox: ¡Repetí los pasos!
 
 ***
