@@ -6,4 +6,4 @@ slides: true
 menuTitle: Sesión 3
 ---
 
-More docs, and mix bag of questions!
+¡Más documentación y un montón de preguntas!
