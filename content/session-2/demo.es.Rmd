@@ -4,7 +4,7 @@ weight: 3
 output: hugodown::md_document
 ---
 
-## Recordatorio de la última vez
+## Recordatorio del último encuentro
 
 Tenemos un paquete con una función.
 
@@ -26,11 +26,11 @@ Tenemos un paquete con una función.
 
 ## Más _tests_
 
-- Utiliza `withr::local_options()` en un _test_.
+- Usá `withr::local_options()` en un _test_.
 
-- Mira la documentación de `testthat::test_path()`.
+- Mirá la documentación de `testthat::test_path()`.
 
-- Crea una función de ayuda en un archivo `tests/testthat/helper-bla.R` y utilízala en una _test_.
+- Creá una función de ayuda en un archivo `tests/testthat/helper-bla.R` y utilízala en una _test_.
 
 :eyes: [sitio de withr](https://withr.r-lib.org/)
 
@@ -44,7 +44,7 @@ Tenemos un paquete con una función.
 
 - `usethis::use_github_action_check_standard()`. `R CMD check` en la nube, diferentes sistemas operativos.
 
-:eyes: [utiliza esta función para configurar las Acciones de GitHub](https://usethis.r-lib.org/reference/github_actions.html)
+:eyes: [utilizá esta función para configurar las Acciones de GitHub](https://usethis.r-lib.org/reference/github_actions.html)
 
 :toolbox: ¡Repite los pasos!
 
