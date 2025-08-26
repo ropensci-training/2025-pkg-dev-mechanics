@@ -1,7 +1,7 @@
 ---
 outputs:
 - Reveal
-title: Desarrolla paquetes!
+title: ¡Desarrollá paquetes!
 hidden: true
 layout: list
 weight: 11
@@ -45,7 +45,7 @@ get_pic(id = 132682, alt = "Bicicleta en reparación", 400)
 
 ***
 
-## ¿Tus preguntas de la última vez?
+## ¿Qué preguntas tenés desde el último encuentro?
 
 ***
 
