@@ -27,7 +27,7 @@ Esa función tiene una página de manual local.
 
 - `usethis::use_github_action("pkgdown")` cambia la configuración de las páginas GitHub del repositorio, añade la URL a la configuración pkgdown y a DESCRIPTION.
 
-:ojos: [usa esta función para configurar las Acciones de GitHub](https://usethis.r-lib.org/reference/github_actions.html)
+:ojos: [usá esta función para configurar las Acciones de GitHub](https://usethis.r-lib.org/reference/github_actions.html)
 
 :toolbox: ¡Repetí los pasos!
 
