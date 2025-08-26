@@ -44,7 +44,7 @@ url = "/credits"
 weight = 30
 
 [[Languages.es.menu.shortcuts]]
-name = "<i class='fa fa-certificate'></i> CC-BY Licence"
+name = "<i class='fa fa-certificate'></i> Licencia CC-BY"
 url = "https://creativecommons.org/licenses/by/4.0/"
 weight = 40
 
