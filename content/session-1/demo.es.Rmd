@@ -8,7 +8,7 @@ output: hugodown::md_document
 
 * `.Library`, `.libPaths()`
 
-* `install.packages("devtools")`. [Setup chapter del libro R packages](https://r-pkgs.org/setup.html).
+* `install.packages("devtools")`. [Capítulo Setup del libro R packages](https://r-pkgs.org/setup.html).
 
 * `install.packages("pak")`.
 
@@ -38,50 +38,50 @@ La preparación no es divertida!
 
 * `usethis::use_git()`
 
-* `usethis::use_github()`. Mira al repositorio y su :sparkles: pagina de issus :sparkles:.
+* `usethis::use_github()`. Mira al repositorio y su :sparkles: pagina de _issues_ :sparkles:.
 
 :eyes: [sitio de usethis](https://usethis.r-lib.org/)
 
-:toolbox: Repite las mismas tareas, envia el enlace de tu repositorio en el chat!
+:toolbox: Repite las mismas tareas, enviá el enlace de tu repositorio en el chat!
 
 ---
 
 ## Una primera función
 
-* `usethis::use_r("time")`. Explica qué `sprintf()` hace.
+* `usethis::use_r("time")`. Explica qué hace `sprintf()`.
 
 * `devtools::load()`, `what_time()`.
 
-* Añade un argumento.
+* Añadí un argumento.
 
 * `devtools::load()`, `what_time()`, `what_time(language = "en")`.
 
-:toolbox: ¡Repite los pasos!
+:toolbox: ¡Repetí los pasos!
 
 ---
 
 ## Página del manual
 
-- Inserta el esqueleto roxygen2.
+- Insertá el esqueleto roxygen2.
 
 - `devtools::document()`, `?what_time`, muestra el archivo Rd.
 
-- Construye y vuelve a cargar (instala los paquetes desde la pestaña de construcción de RStudio), intenta utilizar el paquete desde otra sesión. Instala desde GitHub.
+- Construye y vuelve a cargar (instalá los paquetes desde la pestaña de construcción de RStudio), intentá utilizar el paquete desde otra sesión. Instalá desde GitHub.
 
 :eyes: [sitio de roxygen2](https://roxygen2.r-lib.org/)
 
 :eyes: [Libro R Packages, the whole game](https://r-pkgs.org/whole-game.html)
 
-:toolbox: ¡Repite los pasos!
+:toolbox: ¡Repetí los pasos!
 
 ---
 
-## Usa dependencias
+## Usá dependencias
 
-* Añade dos dependencias, `use_package("praise")` y `use_package("rlang")`.
+* Añadí dos dependencias, `use_package("praise")` y `use_package("rlang")`.
 
 * `devtools::load()`, `what_time()`, `what_time(language = "en")`.
 
-:toolbox: ¡Repite los pasos!
+:toolbox: ¡Repetí los pasos!
 
 ---
