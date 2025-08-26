@@ -35,7 +35,9 @@ rmd_hash: 31607e4af7dc6362
 
 -   [Advanced R](https://adv-r.hadley.nz/) de Hadley Wickham.
 
--   Mi entrada con enlaces hasta recursos: ["How to develop good R packages"](http://www.masalmon.eu/2017/12/11/goodrpackages/).
+-   Mi artículo con enlaces hasta recursos: ["How to develop good R packages"](http://www.masalmon.eu/2017/12/11/goodrpackages/).
+  
+- [Introducción a la Programación II](https://intro-programacion.netlify.app) de Paola Corrales y Yanina Bellini Saibene. Capítulos 6 y del 9 al 14.   
 
 ## Integración continua
 
