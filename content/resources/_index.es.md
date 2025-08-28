@@ -11,6 +11,8 @@ rmd_hash: 31607e4af7dc6362
 
 ## Desarrollo de paquetes R
 
+-   [Desarrollando paquetes de R Con la ayuda de rOpenSci](https://vimeo.com/1080985760?share=copy#t=0)
+
 -   [R Packages book](https://r-pkgs.org) de Hadley Wickham y Jenny Bryan.
 
 -   [RStudio Package Development Cheatsheet](https://raw.githubusercontent.com/rstudio/cheatsheets/master/package-development.pdf).
