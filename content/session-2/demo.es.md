@@ -2,11 +2,11 @@
 title: Demo
 weight: 3
 output: hugodown::md_document
-rmd_hash: 12575f75eedd6fd9
+rmd_hash: a5f6a9f4315881a4
 
 ---
 
-## Recordatorio de la última vez
+## Recordatorio del último encuentro
 
 Tenemos un paquete con una función.
 
@@ -28,11 +28,11 @@ Tenemos un paquete con una función.
 
 ## Más *tests*
 
--   Utiliza [`withr::local_options()`](https://withr.r-lib.org/reference/with_options.html) en un *test*.
+-   Usá [`withr::local_options()`](https://withr.r-lib.org/reference/with_options.html) en un *test*.
 
--   Mira la documentación de [`testthat::test_path()`](https://testthat.r-lib.org/reference/test_path.html).
+-   Mirá la documentación de [`testthat::test_path()`](https://testthat.r-lib.org/reference/test_path.html).
 
--   Crea una función de ayuda en un archivo `tests/testthat/helper-bla.R` y utilízala en una *test*.
+-   Creá una función de ayuda en un archivo `tests/testthat/helper-bla.R` y utilízala en una *test*.
 
 :eyes: [sitio de withr](https://withr.r-lib.org/)
 
@@ -46,7 +46,7 @@ Tenemos un paquete con una función.
 
 -   [`usethis::use_github_action_check_standard()`](https://usethis.r-lib.org/reference/use_github_actions.html). `R CMD check` en la nube, diferentes sistemas operativos.
 
-:eyes: [utiliza esta función para configurar las Acciones de GitHub](https://usethis.r-lib.org/reference/github_actions.html)
+:eyes: [utilizá esta función para configurar las Acciones de GitHub](https://usethis.r-lib.org/reference/github_actions.html)
 
 :toolbox: ¡Repite los pasos!
 
