@@ -14,7 +14,7 @@ Tenemos un paquete con una función.
 
 - `use_testthat()`.
 
-- `use_test("time")`: primero un _test_ simple, luego un _snapshot test_, luego una instantánea del error.
+- `use_test("time")`: primero un _test_ simple, luego un _snapshot test_, luego un _snapshot test_ del error.
 
 - `devtools::test()` o botón.
 
