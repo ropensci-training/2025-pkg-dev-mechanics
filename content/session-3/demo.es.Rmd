@@ -19,7 +19,7 @@ Esa función tiene una página de manual local.
 
 - `install.packages("pkgdown")`, `usethis::use_pkgdown()`, `pkgdown::build_site()`. Localmente.
 
-:ojos: [pkgdown sitio web](https://pkgdown.r-lib.org/)
+:eyes: [pkgdown sitio web](https://pkgdown.r-lib.org/)
 
 :toolbox: ¡Repetí los pasos!
 
@@ -27,7 +27,7 @@ Esa función tiene una página de manual local.
 
 - `usethis::use_github_action("pkgdown")` cambia la configuración de las páginas GitHub del repositorio, añade la URL a la configuración pkgdown y a DESCRIPTION.
 
-:ojos: [usá esta función para configurar las Acciones de GitHub](https://usethis.r-lib.org/reference/github_actions.html)
+:eyes: [usá esta función para configurar las Acciones de GitHub](https://usethis.r-lib.org/reference/github_actions.html)
 
 :toolbox: ¡Repetí los pasos!
 

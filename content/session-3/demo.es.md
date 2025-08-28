@@ -2,7 +2,7 @@
 title: Demo
 weight: 3
 output: hugodown::md_document
-rmd_hash: 3747c399a6a08ef4
+rmd_hash: 0e95f04b6ee1d945
 
 ---
 
@@ -22,7 +22,7 @@ Esa función tiene una página de manual local.
 
 -   `install.packages("pkgdown")`, [`usethis::use_pkgdown()`](https://usethis.r-lib.org/reference/use_pkgdown.html), [`pkgdown::build_site()`](https://pkgdown.r-lib.org/reference/build_site.html). Localmente.
 
-:ojos: [pkgdown sitio web](https://pkgdown.r-lib.org/)
+:eyes: [pkgdown sitio web](https://pkgdown.r-lib.org/)
 
 :toolbox: ¡Repetí los pasos!
 
@@ -30,7 +30,7 @@ Esa función tiene una página de manual local.
 
 -   `usethis::use_github_action("pkgdown")` cambia la configuración de las páginas GitHub del repositorio, añade la URL a la configuración pkgdown y a DESCRIPTION.
 
-:ojos: [usá esta función para configurar las Acciones de GitHub](https://usethis.r-lib.org/reference/github_actions.html)
+:eyes: [usá esta función para configurar las Acciones de GitHub](https://usethis.r-lib.org/reference/github_actions.html)
 
 :toolbox: ¡Repetí los pasos!
 
