@@ -2,7 +2,7 @@
 title: Demo
 weight: 3
 output: hugodown::md_document
-rmd_hash: 73844b225a5ab6bd
+rmd_hash: 3747c399a6a08ef4
 
 ---
 
@@ -18,7 +18,7 @@ Esa función tiene una página de manual local.
 
 -   `install.packages("rmarkdown")`, [`usethis::use_readme_rmd()`](https://usethis.r-lib.org/reference/use_readme_rmd.html), escribir cosas, [`devtools::build_readme()`](https://devtools.r-lib.org/reference/build_rmd.html), commit+push, mirar el repositorio de GitHub.
 
--   `usethis::use_vignette("minipkg")`, escribí cosas. Viñeta != artículo.
+-   `usethis::use_vignette("minipkg.qmd")` (Quarto) o `usethis::use_vignette("minipkg")` (R Markdown), escribí cosas. Viñeta != artículo.
 
 -   `install.packages("pkgdown")`, [`usethis::use_pkgdown()`](https://usethis.r-lib.org/reference/use_pkgdown.html), [`pkgdown::build_site()`](https://pkgdown.r-lib.org/reference/build_site.html). Localmente.
 

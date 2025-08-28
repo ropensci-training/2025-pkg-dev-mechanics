@@ -15,7 +15,7 @@ Esa función tiene una página de manual local.
 
 - `install.packages("rmarkdown")`, `usethis::use_readme_rmd()`, escribir cosas, `devtools::build_readme()`, commit+push, mirar el repositorio de GitHub.
 
-- `usethis::use_vignette("minipkg")`, escribí cosas. Viñeta != artículo.
+- `usethis::use_vignette("minipkg.qmd")` (Quarto) o `usethis::use_vignette("minipkg")` (R Markdown), escribí cosas. Viñeta != artículo.
 
 - `install.packages("pkgdown")`, `usethis::use_pkgdown()`, `pkgdown::build_site()`. Localmente.
 
