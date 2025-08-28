@@ -7,7 +7,7 @@ layout: list
 weight: 11
 output: hugodown::md_document
 countdown: true
-rmd_hash: d29096aa92edcde8
+rmd_hash: 36ca6b3dc481236b
 
 ---
 
@@ -23,19 +23,14 @@ rmd_hash: d29096aa92edcde8
 
 </div>
 
-------------------------------------------------------------------------
-
-## Mis credenciales de desarrollo de paquetes R
-
--   Editora voluntaria para la [Revisión de software por pares de rOpenSci](https://ropensci.org/es/software-review).
-
--   Mantenimiento de la [Guía de desarrollo de rOpenSci](https://devguide.ropensci.org/es/index.es.html).
-
--   Creé el [blog R-hub](https://blog.r-hub.io).
-
--   Escribí el libro [HTTP testing in R](https://books.ropensci.org/http-testing/) con Scott Chamberlain.
-
--   Participé en el desarrollo de varios paquetes.
+|  |
+|-----|
+| \## Mis credenciales de desarrollo de paquetes R |
+| \- [Revisión de software por pares de rOpenSci](https://ropensci.org/es/software-review). |
+| \- [Guía de desarrollo de rOpenSci](https://devguide.ropensci.org/es/index.es.html). |
+| \- [blog R-hub](https://blog.r-hub.io). |
+| \- Libro [HTTP testing in R](https://books.ropensci.org/http-testing/) con Scott Chamberlain. |
+| \- Participé en el desarrollo de varios paquetes. |
 
 ## ¿Por qué desarrollar un paquete R?
 
@@ -65,11 +60,11 @@ La forma más fácil de compartir código/datos/plantillas R Markdown... con
 
 Susan Johnston [preguntó](https://github.com/susjoh/fibonacci).
 
--   ¿Puedes abrir R o RStudio?
+-   Podés abrir R o RStudio?
 
--   ¿Puedes instalar un paquete?
+-   Podés instalar un paquete?
 
--   ¿Escribiste alguna vez una función en R?
+-   ¿Escribistes alguna vez una función en R?
 
 -   ¿Podrías *aprender* a escribir una función en R?
 

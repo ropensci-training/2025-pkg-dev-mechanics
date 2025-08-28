@@ -49,16 +49,17 @@ get_pic(id = 132682, alt = "Bike in repair room", 400)
 ## Mis credenciales de desarrollo de paquetes R
 
 
-- Editora voluntaria para la [Revisión de software por pares de rOpenSci](https://ropensci.org/es/software-review).
+- [Revisión de software por pares de rOpenSci](https://ropensci.org/es/software-review).
 
-- Mantenimiento de la [Guía de desarrollo de rOpenSci](https://devguide.ropensci.org/es/index.es.html).
+- [Guía de desarrollo de rOpenSci](https://devguide.ropensci.org/es/index.es.html).
 
-- Creé el [blog R-hub](https://blog.r-hub.io).
+- [blog R-hub](https://blog.r-hub.io).
 
-- Escribí el libro [HTTP testing in R](https://books.ropensci.org/http-testing/) con Scott Chamberlain.
+- Libro [HTTP testing in R](https://books.ropensci.org/http-testing/) con Scott Chamberlain.
 
 - Participé en el desarrollo de varios paquetes.
 
+----------------
 
 ## ¿Por qué desarrollar un paquete R?
 
@@ -88,11 +89,11 @@ La forma más fácil de compartir código/datos/plantillas R Markdown... con
 
 Susan Johnston [preguntó](https://github.com/susjoh/fibonacci).
 
-- ¿Puedes abrir R o RStudio?
+- Podés abrir R o RStudio?
 
-- ¿Puedes instalar un paquete?
+- Podés instalar un paquete?
 
-- ¿Escribiste alguna vez una función en R?
+- ¿Escribistes alguna vez una función en R?
 
 - ¿Podrías *aprender* a escribir una función en R?
 
@@ -150,7 +151,11 @@ Te presento a un Clippy realmente útil, `{usethis}` ¡!
 Trabajo regular, enseñanza, reproducción de problemas.
 
 ```{r wheel, results="asis", cache=TRUE, echo=FALSE}
-get_pic(id = 5446296, alt = "Rueda de bicicleta con herramientas en el piso", 200)
+get_pic(
+  id = 5446296,
+  alt = "Rueda de bicicleta con herramientas en el piso",
+  200
+)
 ```
 
 ***
@@ -162,7 +167,11 @@ get_pic(id = 5446296, alt = "Rueda de bicicleta con herramientas en el piso", 20
 - Aprende que no hay magia, sólo práctica y :sparkles: consejos :sparkles:.
 
 ```{r tiny, results="asis", cache=TRUE, echo=FALSE}
-get_pic(id = 686230, alt = "Señal de bicicleta en un carril de bicicletas, con hojas de árbol.", 300)
+get_pic(
+  id = 686230,
+  alt = "Señal de bicicleta en un carril de bicicletas, con hojas de árbol.",
+  300
+)
 ```
 
 ***
