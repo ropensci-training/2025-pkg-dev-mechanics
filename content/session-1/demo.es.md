@@ -2,7 +2,7 @@
 title: Demo
 weight: 3
 output: hugodown::md_document
-rmd_hash: 8979b5d734a1f26d
+rmd_hash: 8d9c8fba6adeb4c1
 
 ---
 
@@ -68,7 +68,7 @@ La preparación no es divertida!
 
 -   [`devtools::document()`](https://devtools.r-lib.org/reference/document.html), `?what_time`, muestra el archivo Rd.
 
--   Construye y vuelve a cargar (instalá los paquetes desde la pestaña de construcción de RStudio), intentá utilizar el paquete desde otra sesión. Instalá desde GitHub.
+-   Construye y vuelve a cargar (instalá los paquetes desde la pestaña de construcción de RStudio o "R: Install R Package and Restart R" en Positron), intentá utilizar el paquete desde otra sesión. Instalá desde GitHub.
 
 :eyes: [sitio de roxygen2](https://roxygen2.r-lib.org/)
 

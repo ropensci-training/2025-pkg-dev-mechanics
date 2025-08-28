@@ -66,7 +66,7 @@ La preparación no es divertida!
 
 - `devtools::document()`, `?what_time`, muestra el archivo Rd.
 
-- Construye y vuelve a cargar (instalá los paquetes desde la pestaña de construcción de RStudio), intentá utilizar el paquete desde otra sesión. Instalá desde GitHub.
+- Construye y vuelve a cargar (instalá los paquetes desde la pestaña de construcción de RStudio o "R: Install R Package and Restart R" en Positron), intentá utilizar el paquete desde otra sesión. Instalá desde GitHub.
 
 :eyes: [sitio de roxygen2](https://roxygen2.r-lib.org/)
 
