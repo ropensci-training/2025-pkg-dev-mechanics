@@ -7,7 +7,7 @@ layout: list
 weight: 11
 output: hugodown::md_document
 countdown: true
-rmd_hash: 36ca6b3dc481236b
+rmd_hash: 5cea544c4e7fc33c
 
 ---
 
@@ -23,14 +23,21 @@ rmd_hash: 36ca6b3dc481236b
 
 </div>
 
-|  |
-|-----|
-| \## Mis credenciales de desarrollo de paquetes R |
-| \- [Revisión de software por pares de rOpenSci](https://ropensci.org/es/software-review). |
-| \- [Guía de desarrollo de rOpenSci](https://devguide.ropensci.org/es/index.es.html). |
-| \- [blog R-hub](https://blog.r-hub.io). |
-| \- Libro [HTTP testing in R](https://books.ropensci.org/http-testing/) con Scott Chamberlain. |
-| \- Participé en el desarrollo de varios paquetes. |
+------------------------------------------------------------------------
+
+## Mis credenciales de desarrollo de paquetes R
+
+-   [Revisión de software por pares de rOpenSci](https://ropensci.org/es/software-review).
+
+-   [Guía de desarrollo de rOpenSci](https://devguide.ropensci.org/es/index.es.html).
+
+-   [blog R-hub](https://blog.r-hub.io).
+
+-   Libro [HTTP testing in R](https://books.ropensci.org/http-testing/) con Scott Chamberlain.
+
+-   Participé en el desarrollo de varios paquetes.
+
+------------------------------------------------------------------------
 
 ## ¿Por qué desarrollar un paquete R?
 
@@ -72,13 +79,17 @@ Susan Johnston [preguntó](https://github.com/susjoh/fibonacci).
 
 ------------------------------------------------------------------------
 
-## Recursos sobre funciones
+## Recursos sobre funciones (1/2)
 
 -   [Materiales del tutorial de R-Ladies East Lansing de Stephanie Kirmer](https://github.com/rladies-eastlansing/2021-rfunctions#writing-r-functions)
 
 -   [Escribe tus propias funciones de R](https://stat545.com/functions-part1.html), curso stat 545 por Jenny Bryan y The STAT 545 TAs;
 
 -   [Capítulo sobre funciones](https://r4ds.had.co.nz/functions.html) en el libro "R for Data Science" de Garrett Grolemund y Hadley Wickham;
+
+------------------------------------------------------------------------
+
+## Recursos sobre funciones (2/2)
 
 -   [Charla "Fun with Functions](https://zealous-wiles-e22e83.netlify.app/talk/funwithfunctions/) por Kaylea Haynes, R-Ladies Manchester.
 
@@ -130,7 +141,7 @@ Trabajo regular, enseñanza, reproducción de problemas.
 
 -   Conocer (las mejores :innocent:) herramientas para el desarrollo de paquetes;
 
--   Aprende que no hay magia, sólo práctica y :sparkles: consejos :sparkles:.
+-   Aprender que no hay magia, sólo práctica y :sparkles: consejos :sparkles:.
 
 <div class="highlight">
 
