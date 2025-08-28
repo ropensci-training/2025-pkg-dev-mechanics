@@ -1,13 +1,13 @@
 ---
 outputs:
 - Reveal
-title: Desarrolla paquetes!
+title: ¡Desarrollá paquetes!
 hidden: true
 layout: list
 weight: 11
 output: hugodown::md_document
 countdown: true
-rmd_hash: 0f88561b5aa01e5f
+rmd_hash: 87bac9d57feeae69
 
 ---
 
@@ -25,7 +25,7 @@ rmd_hash: 0f88561b5aa01e5f
 
 ------------------------------------------------------------------------
 
-## ¿Tus preguntas de la última vez?
+## ¿Qué preguntas tenés desde el último encuentro?
 
 ------------------------------------------------------------------------
 

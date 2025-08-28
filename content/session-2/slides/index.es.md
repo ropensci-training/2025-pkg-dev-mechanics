@@ -7,7 +7,7 @@ layout: list
 weight: 11
 output: hugodown::md_document
 countdown: true
-rmd_hash: 9cee51bbd7ddded5
+rmd_hash: 278e574c1fc1df5d
 
 ---
 
@@ -25,21 +25,21 @@ rmd_hash: 9cee51bbd7ddded5
 
 ------------------------------------------------------------------------
 
-## Your questions from last time?
+## ¿Qué preguntas tenés desde el último encuentro?
 
 ------------------------------------------------------------------------
 
-## Today
+## Hoy
 
--   Testing (as opposed to experiments in the console)
+-   Pruebas (a diferencia de los experimentos en la consola)
 
--   Continuous integration
+-   Integración continua
 
 ------------------------------------------------------------------------
 
-## Further resources
+## Recursos adicionales
 
--   R packages book, testing chapters: <https://r-pkgs.org/testing-basics.html>
+-   Libro R packages, capítulo de testing: <https://r-pkgs.org/testing-basics.html>
 
 -   <https://mtlynch.io/good-developers-bad-tests/>
 
@@ -47,11 +47,13 @@ rmd_hash: 9cee51bbd7ddded5
 
 -   <https://github.com/r-lib/actions>
 
+-   Capitulo de dependencias y test del libro de [Introducción a la Programación II](https://intro-programacion.netlify.app/11_errores) de Paola Corrales y Yanina Bellini Saibene
+
 ------------------------------------------------------------------------
 
-## Questions?
+## ¿Preguntas?
 
-See you at the next package development training?
+¿Nos vemos en la próxima capacitación sobre desarrollo de paquetes?
 
 <iframe src="https://giphy.com/embed/XFpCAWSfTwXh2uSEk2" width="480" height="269" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/moon-et-extra-terrestrial-XFpCAWSfTwXh2uSEk2">via GIPHY</a></p>
 

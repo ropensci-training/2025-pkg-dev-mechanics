@@ -2,7 +2,7 @@
 title: Demo
 weight: 3
 output: hugodown::md_document
-rmd_hash: 120a955c391737c3
+rmd_hash: 12575f75eedd6fd9
 
 ---
 
@@ -16,7 +16,7 @@ Tenemos un paquete con una función.
 
 -   `use_testthat()`.
 
--   `use_test("time")`: primero un *test* simple, luego un *snapshot test*, luego una instantánea del error.
+-   `use_test("time")`: primero un *test* simple, luego un *snapshot test*, luego un *snapshot test* del error.
 
 -   [`devtools::test()`](https://devtools.r-lib.org/reference/test.html) o botón.
 

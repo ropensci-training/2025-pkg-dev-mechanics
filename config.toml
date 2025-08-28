@@ -4,7 +4,7 @@ defaultContentLanguage = "es"
 title = "Desarrollo de paquetes para principiantes"
 enableEmoji = true
 pygmentsUseClasses=true
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$", "index\\.html", '\.knit\.md$', '\.utf8\.md$']
+ignoreFiles = ["\\.R$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$", "index\\.html", '\.knit\.md$', '\.utf8\.md$']
 
 [module]
   [[module.imports]]

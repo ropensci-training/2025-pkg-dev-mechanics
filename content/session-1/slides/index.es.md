@@ -7,7 +7,7 @@ layout: list
 weight: 11
 output: hugodown::md_document
 countdown: true
-rmd_hash: e3d16d1089c82e7b
+rmd_hash: d29096aa92edcde8
 
 ---
 
@@ -27,13 +27,13 @@ rmd_hash: e3d16d1089c82e7b
 
 ## Mis credenciales de desarrollo de paquetes R
 
--   Editora voluntaria para [de Revisión de software por pares de rOpenSci](https://ropensci.org/es/software-review).
+-   Editora voluntaria para la [Revisión de software por pares de rOpenSci](https://ropensci.org/es/software-review).
 
 -   Mantenimiento de la [Guía de desarrollo de rOpenSci](https://devguide.ropensci.org/es/index.es.html).
 
 -   Creé el [blog R-hub](https://blog.r-hub.io).
 
--   Libro [HTTP testing in R](https://books.ropensci.org/http-testing/) con Scott Chamberlain.
+-   Escribí el libro [HTTP testing in R](https://books.ropensci.org/http-testing/) con Scott Chamberlain.
 
 -   Participé en el desarrollo de varios paquetes.
 
@@ -41,11 +41,11 @@ rmd_hash: e3d16d1089c82e7b
 
 La forma más fácil de compartir código/datos/plantillas R Markdown... con
 
--   te (en el futuro),
+-   vos (en el futuro),
 
 -   las personas que conoces,
 
--   y los personas que no conoces.
+-   y las personas que no conoces.
 
 ------------------------------------------------------------------------
 
@@ -61,7 +61,7 @@ La forma más fácil de compartir código/datos/plantillas R Markdown... con
 
 ------------------------------------------------------------------------
 
-## ¿Quién puede escribir un paquete? ¡TÚ!
+## ¿Quién puede escribir un paquete? ¡VOS!
 
 Susan Johnston [preguntó](https://github.com/susjoh/fibonacci).
 
@@ -69,17 +69,17 @@ Susan Johnston [preguntó](https://github.com/susjoh/fibonacci).
 
 -   ¿Puedes instalar un paquete?
 
--   ¿Has escrito alguna vez una función en R?
+-   ¿Escribiste alguna vez una función en R?
 
 -   ¿Podrías *aprender* a escribir una función en R?
 
-**¡Puedes escribir un paquete en R!**
+**¡Podés escribir un paquete en R!**
 
 ------------------------------------------------------------------------
 
 ## Recursos sobre funciones
 
--   [Materiales del tutorial R-Ladies East Lansing de Stephanie Kirmer](https://github.com/rladies-eastlansing/2021-rfunctions#writing-r-functions)
+-   [Materiales del tutorial de R-Ladies East Lansing de Stephanie Kirmer](https://github.com/rladies-eastlansing/2021-rfunctions#writing-r-functions)
 
 -   [Escribe tus propias funciones de R](https://stat545.com/functions-part1.html), curso stat 545 por Jenny Bryan y The STAT 545 TAs;
 
@@ -87,11 +87,13 @@ Susan Johnston [preguntó](https://github.com/susjoh/fibonacci).
 
 -   [Charla "Fun with Functions](https://zealous-wiles-e22e83.netlify.app/talk/funwithfunctions/) por Kaylea Haynes, R-Ladies Manchester.
 
+-   Capítulo sobre Funciones del libro de la materia [Introducción a la Programación II](https://intro-programacion.netlify.app/07_funciones) de Paola Corrales y Yanina Bellini Saibene.
+
 ------------------------------------------------------------------------
 
 ## ¿Qué es un paquete?
 
-> Para tener menos miedo, tienes que decirte a ti mismo que se trata simplemente de una carpeta organizada de forma constreñida.
+> Para calmar tus temores, recordá que no es más que una carpeta organizada de una manera específica.
 
 [Traducción de una frase de Sébastien Rochette](https://thinkr.fr/transformer-plusieurs-scripts-eparpilles-en-beau-package-r)
 
@@ -99,7 +101,7 @@ Susan Johnston [preguntó](https://github.com/susjoh/fibonacci).
 
 ## Automatización
 
-{{< figure src="automate_meme.jpg" alt="Pequeño monstruo que dice automatizar todas las cosas"  caption="Imagen del meme por [Allie Brosh](https://en.wikipedia.org/wiki/Hyperbole_and_a_Half)"  >}}
+{{< figure src="automate_meme.jpg" alt="Pequeño monstruo que dice automatizar todas las cosas"  caption="Imagen del meme de [Allie Brosh](https://en.wikipedia.org/wiki/Hyperbole_and_a_Half)"  >}}
 
 ------------------------------------------------------------------------
 
@@ -111,7 +113,7 @@ Susan Johnston [preguntó](https://github.com/susjoh/fibonacci).
 
 ## Automatizando... ¿Cómo?
 
-Conoce un Clippy realmente útil, `{usethis}` ¡!
+Te presento a un Clippy realmente útil, `{usethis}` ¡!
 
 {{< figure src="https://usethis.r-lib.org/reference/figures/logo.png" alt="usa este logo, un robot"  >}}
 
@@ -123,7 +125,7 @@ Trabajo regular, enseñanza, reproducción de problemas.
 
 <div class="highlight">
 
-{{< figure src="5446296.jpeg" alt="Bike wheel with tools on the floor" caption="Foto de [cottonbro studio en Pexels](https://www.pexels.com/photo/wrench-on-a-ground-5446296/)." width="200" >}}
+{{< figure src="5446296.jpeg" alt="Rueda de bicicleta con herramientas en el piso" caption="Foto de [cottonbro studio en Pexels](https://www.pexels.com/photo/wrench-on-a-ground-5446296/)." width="200" >}}
 
 </div>
 
@@ -137,7 +139,7 @@ Trabajo regular, enseñanza, reproducción de problemas.
 
 <div class="highlight">
 
-{{< figure src="686230.jpeg" alt="Bike sign on a bike path, with tree leaves" caption="Foto de [Cristiana Raluca en Pexels](https://www.pexels.com/photo/white-bicycle-road-sign-686230/)." width="300" >}}
+{{< figure src="686230.jpeg" alt="Señal de bicicleta en un carril de bicicletas, con hojas de árbol." caption="Foto de [Cristiana Raluca en Pexels](https://www.pexels.com/photo/white-bicycle-road-sign-686230/)." width="300" >}}
 
 </div>
 
@@ -147,11 +149,11 @@ Trabajo regular, enseñanza, reproducción de problemas.
 
 :link: <https://desarrollo-paquetes-basico-2025.netlify.app/>
 
-Diapositivas, notas de demostración, otros recursos
+Diapositivas, notas de la demostración, otros recursos
 
 <div class="highlight">
 
-{{< figure src="3932867.jpeg" alt="Small kid on a balance bike" caption="Foto de [Tatiana Syrikova en Pexels](https://www.pexels.com/photo/anonymous-kid-in-helmet-riding-run-bike-on-pavement-in-countryside-3932867/)." width="200" >}}
+{{< figure src="3932867.jpeg" alt="Niño pequeño en una bicicleta sin pedales" caption="Foto de [Tatiana Syrikova en Pexels](https://www.pexels.com/photo/anonymous-kid-in-helmet-riding-run-bike-on-pavement-in-countryside-3932867/)." width="200" >}}
 
 </div>
 
@@ -183,9 +185,9 @@ Alternando entre ver y practicar en las salas de Zoom.
 
 ## `.Rprofile`
 
-Como guardar los ajustes de una bicicleta.
+Cómo guardar los ajustes de una bicicleta.
 
-¡No tendrás que ajustar la altura del sillín cada vez que salgas a dar una vuelta!
+¡No tenés que ajustar la altura del asiento cada vez que salgas a dar una vuelta!
 
 ------------------------------------------------------------------------
 
@@ -193,7 +195,7 @@ Como guardar los ajustes de una bicicleta.
 
 -   Cargando, probando, editando.
 
--   Ejecutar (añadir) las pruebas, editar. En la próxima sesión!
+-   Ejecutar (añadir) las pruebas, editar. ¡En la próxima sesión!
 
 ------------------------------------------------------------------------
 
@@ -207,11 +209,11 @@ Como guardar los ajustes de una bicicleta.
 
 ------------------------------------------------------------------------
 
-## ¿Tienes preguntas?
+## ¿Tenés preguntas?
 
 ¿Nos vemos en el próximo curso de desarrollo de paquetes?
 
-Prepara las preguntas con antelación, envíalas con antelación si puedes.
+Prepará las preguntas con antelación, envialas con antelación si podés.
 
 <iframe src="https://giphy.com/embed/XFpCAWSfTwXh2uSEk2" width="480" height="269" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/moon-et-extra-terrestrial-XFpCAWSfTwXh2uSEk2">via GIPHY</a></p>
 
