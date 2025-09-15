@@ -113,7 +113,7 @@ Susan Johnston [preguntó](https://github.com/susjoh/fibonacci).
 
 ## Automatizar... ¿Cómo?
 
-¿Te acuerdas de Clippy?
+¿Te acordás de Clippy?
 
 ------------------------------------------------------------------------
 
