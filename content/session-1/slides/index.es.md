@@ -45,9 +45,9 @@ La forma más fácil de compartir código/datos/plantillas R Markdown... con
 
 -   vos (en el futuro),
 
--   las personas que conoces,
+-   las personas que conocés,
 
--   y las personas que no conoces.
+-   y las personas que no conocés.
 
 ------------------------------------------------------------------------
 
