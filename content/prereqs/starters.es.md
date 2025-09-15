@@ -9,7 +9,7 @@ Antes de empezar a escribir paquetes...
 
 - [Creá una cuenta GitHub](https://happygitwithr.com/github-acct), [instala Git](https://happygitwithr.com/install-git). Tené en cuenta que ya deberías tener estas herramientas listas si hicistes los talleres de Git y GitHub.
 
-- Conectá también R con tu cuenta de GitHub. Consultá [Gestión de credenciales Git(Hub)](https://usethis.r-lib.org/articles/git-credentials.html) (y [Gestión de credenciales GitHub desde R, nivel de dificultad linux](https://blog.djnavarro.net/posts/2021-08-08_git-credential-helpers/) si es necesario :sweat_smile:). Ponéte en contacto conmigo (mensaje de Slack, `maelle@ropensci.org`) si cuando llamás a la función `usethis::git git_sitrep()` te da un error que te desconcierta.
+- Conectá también R con tu cuenta de GitHub. Consultá [Gestión de credenciales Git(Hub)](https://usethis.r-lib.org/articles/git-credentials.html) (y [Gestión de credenciales GitHub desde R, nivel de dificultad linux](https://blog.djnavarro.net/posts/2021-08-08_git-credential-helpers/) si es necesario :sweat_smile:). Ponéte en contacto conmigo (mensaje de Slack o email) si cuando llamás a la función `usethis::git git_sitrep()` te da un error que te desconcierta.
 
 - Aprendé a escribir funciones. Algunos enlaces útiles (en Inglés):
   
