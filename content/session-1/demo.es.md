@@ -56,7 +56,7 @@ La preparación no es divertida!
 
 -   Añadí un argumento.
 
--   `devtools::load()`, `what_time()`, `what_time(language = "en")`.
+-   `devtools::load_all()`, `what_time()`, `what_time(language = "en")`.
 
 :toolbox: ¡Repetí los pasos!
 

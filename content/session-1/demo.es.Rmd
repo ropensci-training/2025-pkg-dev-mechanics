@@ -80,7 +80,7 @@ La preparación no es divertida!
 
 * Añadí dos dependencias, `use_package("praise")` y `use_package("rlang")`.
 
-* `devtools::load()`, `what_time()`, `what_time(language = "en")`.
+* `devtools::load_all()`, `what_time()`, `what_time(language = "en")`.
 
 :toolbox: ¡Repetí los pasos!
 
