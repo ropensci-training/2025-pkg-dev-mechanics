@@ -86,3 +86,23 @@ test_that("what_time() works", {
   expect_snapshot(error = TRUE, what_time(language = "bla"))
 })
 ```
+
+```r
+test_that("bla() works", {
+  withr::local_options(digits = 3)
+  expect_snapshot(print(pi))
+})
+test_that("bla() works", {
+  withr::local_options(digits = 5)
+  expect_snapshot(print(pi))
+})
+```
+
+
+```r
+# archivo en tests/testthat/bla.txt
+test_that("bla() works", {
+  expect_snapshot(readLines(test_path("bla.txt")))
+})
+
+```
