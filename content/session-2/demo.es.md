@@ -2,7 +2,7 @@
 title: Demo
 weight: 3
 output: hugodown::md_document
-rmd_hash: a5f6a9f4315881a4
+rmd_hash: 6fc515810edff908
 
 ---
 
@@ -32,7 +32,7 @@ Tenemos un paquete con una función.
 
 -   Mirá la documentación de [`testthat::test_path()`](https://testthat.r-lib.org/reference/test_path.html).
 
--   Creá una función de ayuda en un archivo `tests/testthat/helper-bla.R` y utilízala en una *test*.
+-   Busca una función de ayuda en un archivo `tests/testthat/helper-bla.R` y mira lo que hace. <https://github.com/search?q=user%3Atidyverse+path%3Atests%2Ftestthat+path%3A**%2Fhelper.*&type=code&ref=advsearch>
 
 :eyes: [sitio de withr](https://withr.r-lib.org/)
 
@@ -44,7 +44,7 @@ Tenemos un paquete con una función.
 
 ## GitHub Actions
 
--   [`usethis::use_github_action_check_standard()`](https://usethis.r-lib.org/reference/use_github_actions.html). `R CMD check` en la nube, diferentes sistemas operativos.
+-   `usethis::use_github_action("check-standard")`. `R CMD check` en la nube, diferentes sistemas operativos.
 
 :eyes: [utilizá esta función para configurar las Acciones de GitHub](https://usethis.r-lib.org/reference/github_actions.html)
 

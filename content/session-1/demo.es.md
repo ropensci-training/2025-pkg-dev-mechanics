@@ -2,7 +2,7 @@
 title: Demo
 weight: 3
 output: hugodown::md_document
-rmd_hash: 8d9c8fba6adeb4c1
+rmd_hash: ea49a54e596865a2
 
 ---
 
@@ -56,7 +56,7 @@ La preparación no es divertida!
 
 -   Añadí un argumento.
 
--   `devtools::load_all()`, `what_time()`, `what_time(language = "en")`.
+-   [`devtools::load_all()`](https://devtools.r-lib.org/reference/load_all.html), `what_time()`, `what_time(language = "en")`.
 
 :toolbox: ¡Repetí los pasos!
 
@@ -82,7 +82,7 @@ La preparación no es divertida!
 
 -   Añadí dos dependencias, `use_package("praise")` y `use_package("rlang")`.
 
--   `devtools::load()`, `what_time()`, `what_time(language = "en")`.
+-   [`devtools::load_all()`](https://devtools.r-lib.org/reference/load_all.html), `what_time()`, `what_time(language = "en")`.
 
 :toolbox: ¡Repetí los pasos!
 
