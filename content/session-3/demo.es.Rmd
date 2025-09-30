@@ -25,7 +25,7 @@ Esa función tiene una página de manual local.
 
 ## Construir el sitio web automáticamente
 
-- `usethis::use_github_action("pkgdown")` cambia la configuración de las páginas GitHub del repositorio, añade la URL a la configuración pkgdown y a DESCRIPTION.
+- `usethis::use_pkgdown_github_pages()` cambia la configuración de las páginas GitHub del repositorio, añade la URL a la configuración pkgdown y a DESCRIPTION.
 
 :eyes: [usá esta función para configurar las Acciones de GitHub](https://usethis.r-lib.org/reference/github_actions.html)
 
